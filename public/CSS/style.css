@@ -1,0 +1,205 @@
+.header{
+    background: rgb(72, 177, 72);
+}
+.social i {
+    font-size: 30px;
+    background: rgb(20, 20, 19);
+    color: #9b5454;
+    padding: 0.5px;
+    transition:0.3s;
+}
+
+.social i:hover{
+    background: red;
+    color: rgb(41, 34, 34);
+    border-radius: 100%;
+    transition: 0.5s;
+}
+
+.slide{
+    max-width:4000px;
+    position: relative;
+    margin: auto;
+}
+.text{
+    color: #36745c;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100px;
+    text-align: center;
+}
+
+.carousel-caption {
+    color: rgb(238, 95, 51);
+    font-size: 50px;
+    padding: 150px 150px;
+    margin: 10%;
+    text-align: left;
+}
+
+.about .card{
+    font-family: 'Josefin Sans', sans-serif;
+    background: transparent;
+    text-align: center;
+}
+
+.about {
+    font-family: 'Josefin Sans', sans-serif;
+    background: transparent;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.services{
+    padding-top: opx;
+    padding-bottom: opx;
+    background: transparent;
+}
+.services,
+h2{
+    margin-top: 50px;
+    padding: auto;
+}
+h1{
+    margin-top: 25px;
+    padding: auto;
+    color: #b6d313;
+}
+.services.icon{
+    margin-left:250px;
+}
+.contact .info{
+    border-top: 3px solid #47b2e4; 
+    border-bottom: #47b2e4 ;
+    padding:40px;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgba(0,0,0,1);
+}
+.contact.info i{
+    font-size:20px;
+    color: #47b2e4;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #e7f5fe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+
+}
+.contact .info h4{
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #0e2b5c;
+}
+.contact .info p{
+    padding: 0 0 10px 60px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #182c50;
+
+}
+.contact.info.email p{
+    padding-top: 5px;
+}
+.contact.info.social-links{
+    padding-left: 60px;
+}
+
+
+
+#footer{
+    font-size:14px;
+    background:#959ba3;
+
+}
+
+#footer .footer-newsletter{
+    padding: 50px 0;
+    background: f3f5fa;
+    text-align: center;
+    font-size: 15px;
+    color: #dbdbdb;
+}
+#footer .footer-newsletter h4{
+    font-size: 24px;
+    margin: 0 0 20px 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 600;
+    color: #f9e7e7;
+}
+#footer .footer-newsletter form{
+    font-size: 30px;
+    background: #fff;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 50px;
+    box-shadow: 0px 2px 15px rgba(0,0,0,0.05);
+
+}
+#footer .footer-newsletter form input[type="submit"]{
+    border:0;
+    padding: 4px 8px;
+    width: calc(50% .50px);
+}
+#footer .footer-newsletter form input[typr="submit"]{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 0 20px;
+    background: #082c3d;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 50px;
+    box-shadow: 0px 2px 15px rgba(0,0,0,0.1);
+
+}
+#footer .footer-newsletter form input[type="submit"]:hover{
+    background: #209dd8;
+}
+#footer .footer-bottom{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: rgb(54, 119, 75);
+}
+#footer .copyright{
+    float: left;
+}
+#footer .credits{
+    float: right ;
+    font-size: 13px;
+}
+#footer .credits a{
+    transition: 0.3s;
+}
+
+.body{
+    background: rgb(167, 187, 175);
+}
+.navbar-brand{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: auto;
+    background: sienna;
+  
+}
+.nav-link{
+    text-align: center;
+    font-size: large;
+}
+.service-body{
+    background: #86aec0;
+}
+
